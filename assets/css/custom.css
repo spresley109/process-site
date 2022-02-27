@@ -34,3 +34,6 @@ added to the button in the index html file as well.*/
 /*********************************************
  Write your css customizations below
  *********************************************/
+.image-outline{
+  border: 1px grey solid !important;
+}
