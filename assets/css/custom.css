@@ -5,15 +5,16 @@
 
 /* If you want to add a background image to the home page banner instead of using a solid color.
 Just un comment the #banner rule below. */
-/* #banner {
-  background-image: url(../../images/pic01.jpg);
+ #banner {
+  background-color: #cba39c; 
+  /* background-image: url(../../assets/AUGUSTA-CPC/banner.jpg);  */
   background-size: cover;
-  color: rgba(255, 255, 255, 0.75);
-  text-shadow: 1px 1px 15px #333;
+  color: rgba(255, 255, 255, 0);
+  /* text-shadow: 1px 1px 15px #333; */
   text-align: center;
   cursor: default;
   padding: 10em 4em 9em 4em;
-} */
+} 
 
 
 
@@ -21,12 +22,12 @@ Just un comment the #banner rule below. */
 You can call the class whatever you want, but in order for it to work, it needs to be
 added to the button in the index html file as well.*/
 #banner .button.redbtn {
-  background-color: rgba(188, 46, 26, 1);
+  background-color: rgb(228, 153, 143);
   box-shadow: none;
 }
 
-#banner .button.redbtn:hover {
-  background-color: rgba(188, 46, 26, .8);
+#banner .button .green-btn:hover {
+  background-color: #90948d;
 }
 
 
